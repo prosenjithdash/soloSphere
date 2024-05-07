@@ -1,8 +1,11 @@
+import Banner from "../../../Components/Banner";
+import TabSection from "../../../Components/TabSection";
 
 const Home = () => {
     return (
         <div>
-            <h2>Home page</h2>
+            <Banner />
+            <TabSection/>
         </div>
     );
 };
